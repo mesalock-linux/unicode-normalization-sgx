@@ -5,6 +5,8 @@
 // If you're caught using this outside this crates tests/, you get to clean up the mess.
 
 use crate::stream_safe::StreamSafe;
+use alloc::string::String;
+
 pub fn stream_safe(s: &str) -> String {
         StreamSafe::new(s.chars()).collect()
 }

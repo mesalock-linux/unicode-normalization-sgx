@@ -10,7 +10,7 @@
 
 use decompose::Decompositions;
 use smallvec::SmallVec;
-use std::fmt::{self, Write};
+use core::fmt::{self, Write};
 
 #[derive(Clone)]
 enum RecompositionState {
